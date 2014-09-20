@@ -1,0 +1,1486 @@
+# Logfile created on 2014-09-20 13:24:34 -0700 by logger.rb/36483
+[09/20/14 13:24:34 -0700 hakimu-mbp (7686)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 13:24:34 -0700 hakimu-mbp (7686)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 13:24:34 -0700 hakimu-mbp (7686)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 13:24:34 -0700 hakimu-mbp (7686)] INFO : Environment: development
+[09/20/14 13:24:34 -0700 hakimu-mbp (7686)] INFO : No known dispatcher detected.
+[09/20/14 13:24:34 -0700 hakimu-mbp (7686)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 13:24:34 -0700 hakimu-mbp (7686)] INFO : Installing Net instrumentation
+[09/20/14 13:24:34 -0700 hakimu-mbp (7686)] INFO : Installing Sinatra instrumentation
+[09/20/14 13:24:34 -0700 hakimu-mbp (7686)] INFO : Installing deferred Rack instrumentation
+[09/20/14 13:24:34 -0700 hakimu-mbp (7686)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 13:24:34 -0700 hakimu-mbp (7686)] INFO : Installing Sidekiq instrumentation
+[09/20/14 13:24:34 -0700 hakimu-mbp (7686)] INFO : Finished instrumentation
+[09/20/14 13:24:35 -0700 hakimu-mbp (7686)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 13:24:50 -0700 hakimu-mbp (7686)] INFO : Doing deferred dependency-detection before Rack startup
+[09/20/14 13:24:50 -0700 hakimu-mbp (7686)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+[09/20/14 13:31:51 -0700 hakimu-mbp (7722)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 13:31:51 -0700 hakimu-mbp (7722)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 13:31:51 -0700 hakimu-mbp (7722)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 13:31:51 -0700 hakimu-mbp (7722)] INFO : Environment: development
+[09/20/14 13:31:51 -0700 hakimu-mbp (7722)] INFO : Dispatcher: unicorn
+[09/20/14 13:31:51 -0700 hakimu-mbp (7722)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 13:31:51 -0700 hakimu-mbp (7722)] INFO : Connecting workers after forking.
+[09/20/14 13:31:51 -0700 hakimu-mbp (7722)] INFO : Installing Net instrumentation
+[09/20/14 13:31:51 -0700 hakimu-mbp (7722)] INFO : Installing Sinatra instrumentation
+[09/20/14 13:31:51 -0700 hakimu-mbp (7722)] INFO : Installing deferred Rack instrumentation
+[09/20/14 13:31:51 -0700 hakimu-mbp (7722)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 13:31:51 -0700 hakimu-mbp (7722)] INFO : Installing Sidekiq instrumentation
+[09/20/14 13:31:51 -0700 hakimu-mbp (7722)] INFO : Finished instrumentation
+[09/20/14 13:31:51 -0700 hakimu-mbp (7722)] INFO : Doing deferred dependency-detection before Rack startup
+[09/20/14 13:32:16 -0700 hakimu-mbp (7722)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 13:32:17 -0700 hakimu-mbp (7722)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+[09/20/14 13:32:46 -0700 hakimu-mbp (7729)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 13:32:46 -0700 hakimu-mbp (7729)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 13:32:46 -0700 hakimu-mbp (7729)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 13:32:46 -0700 hakimu-mbp (7729)] INFO : Environment: development
+[09/20/14 13:32:46 -0700 hakimu-mbp (7729)] INFO : Dispatcher: unicorn
+[09/20/14 13:32:46 -0700 hakimu-mbp (7729)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 13:32:46 -0700 hakimu-mbp (7729)] INFO : Connecting workers after forking.
+[09/20/14 13:32:46 -0700 hakimu-mbp (7729)] INFO : Installing Net instrumentation
+[09/20/14 13:32:46 -0700 hakimu-mbp (7729)] INFO : Installing Sinatra instrumentation
+[09/20/14 13:32:46 -0700 hakimu-mbp (7729)] INFO : Installing deferred Rack instrumentation
+[09/20/14 13:32:46 -0700 hakimu-mbp (7729)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 13:32:46 -0700 hakimu-mbp (7729)] INFO : Installing Sidekiq instrumentation
+[09/20/14 13:32:46 -0700 hakimu-mbp (7729)] INFO : Finished instrumentation
+[09/20/14 13:32:46 -0700 hakimu-mbp (7729)] INFO : Doing deferred dependency-detection before Rack startup
+[09/20/14 13:32:49 -0700 hakimu-mbp (7729)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 13:46:23 -0700 hakimu-mbp (7996)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 13:46:23 -0700 hakimu-mbp (7996)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 13:46:23 -0700 hakimu-mbp (7996)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 13:46:23 -0700 hakimu-mbp (7996)] INFO : Environment: development
+[09/20/14 13:46:23 -0700 hakimu-mbp (7996)] INFO : Dispatcher: sidekiq
+[09/20/14 13:46:23 -0700 hakimu-mbp (7996)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 13:46:23 -0700 hakimu-mbp (7996)] INFO : Installing Net instrumentation
+[09/20/14 13:46:23 -0700 hakimu-mbp (7996)] INFO : Installing Sinatra instrumentation
+[09/20/14 13:46:23 -0700 hakimu-mbp (7996)] INFO : Installing deferred Rack instrumentation
+[09/20/14 13:46:23 -0700 hakimu-mbp (7996)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 13:46:23 -0700 hakimu-mbp (7996)] INFO : Installing Sidekiq instrumentation
+[09/20/14 13:46:23 -0700 hakimu-mbp (7996)] INFO : Finished instrumentation
+[09/20/14 13:46:45 -0700 hakimu-mbp (8002)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 13:46:45 -0700 hakimu-mbp (8002)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 13:46:45 -0700 hakimu-mbp (8002)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 13:46:45 -0700 hakimu-mbp (8002)] INFO : Environment: development
+[09/20/14 13:46:45 -0700 hakimu-mbp (8002)] INFO : Dispatcher: sidekiq
+[09/20/14 13:46:45 -0700 hakimu-mbp (8002)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 13:46:45 -0700 hakimu-mbp (8002)] INFO : Installing Net instrumentation
+[09/20/14 13:46:45 -0700 hakimu-mbp (8002)] INFO : Installing Sinatra instrumentation
+[09/20/14 13:46:45 -0700 hakimu-mbp (8002)] INFO : Installing deferred Rack instrumentation
+[09/20/14 13:46:45 -0700 hakimu-mbp (8002)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 13:46:45 -0700 hakimu-mbp (8002)] INFO : Installing Sidekiq instrumentation
+[09/20/14 13:46:45 -0700 hakimu-mbp (8002)] INFO : Finished instrumentation
+[09/20/14 13:47:56 -0700 hakimu-mbp (8007)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 13:47:56 -0700 hakimu-mbp (8007)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 13:47:56 -0700 hakimu-mbp (8007)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 13:47:56 -0700 hakimu-mbp (8007)] INFO : Environment: development
+[09/20/14 13:47:56 -0700 hakimu-mbp (8007)] INFO : No known dispatcher detected.
+[09/20/14 13:47:56 -0700 hakimu-mbp (8007)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 13:47:56 -0700 hakimu-mbp (8007)] INFO : Installing Net instrumentation
+[09/20/14 13:47:56 -0700 hakimu-mbp (8007)] INFO : Installing Sinatra instrumentation
+[09/20/14 13:47:56 -0700 hakimu-mbp (8007)] INFO : Installing deferred Rack instrumentation
+[09/20/14 13:47:56 -0700 hakimu-mbp (8007)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 13:47:56 -0700 hakimu-mbp (8007)] INFO : Installing Sidekiq instrumentation
+[09/20/14 13:47:56 -0700 hakimu-mbp (8007)] INFO : Finished instrumentation
+[09/20/14 13:47:56 -0700 hakimu-mbp (8007)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 13:48:13 -0700 hakimu-mbp (8012)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 13:48:13 -0700 hakimu-mbp (8012)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 13:48:13 -0700 hakimu-mbp (8012)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 13:48:13 -0700 hakimu-mbp (8012)] INFO : Environment: development
+[09/20/14 13:48:13 -0700 hakimu-mbp (8012)] INFO : No known dispatcher detected.
+[09/20/14 13:48:13 -0700 hakimu-mbp (8012)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 13:48:13 -0700 hakimu-mbp (8012)] INFO : Installing Net instrumentation
+[09/20/14 13:48:13 -0700 hakimu-mbp (8012)] INFO : Installing Sinatra instrumentation
+[09/20/14 13:48:13 -0700 hakimu-mbp (8012)] INFO : Installing deferred Rack instrumentation
+[09/20/14 13:48:13 -0700 hakimu-mbp (8012)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 13:48:13 -0700 hakimu-mbp (8012)] INFO : Installing Sidekiq instrumentation
+[09/20/14 13:48:13 -0700 hakimu-mbp (8012)] INFO : Finished instrumentation
+[09/20/14 13:48:14 -0700 hakimu-mbp (8012)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 13:48:30 -0700 hakimu-mbp (8016)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 13:48:30 -0700 hakimu-mbp (8016)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 13:48:30 -0700 hakimu-mbp (8016)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 13:48:30 -0700 hakimu-mbp (8016)] INFO : Environment: development
+[09/20/14 13:48:30 -0700 hakimu-mbp (8016)] INFO : No known dispatcher detected.
+[09/20/14 13:48:30 -0700 hakimu-mbp (8016)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 13:48:30 -0700 hakimu-mbp (8016)] INFO : Installing Net instrumentation
+[09/20/14 13:48:30 -0700 hakimu-mbp (8016)] INFO : Installing Sinatra instrumentation
+[09/20/14 13:48:30 -0700 hakimu-mbp (8016)] INFO : Installing deferred Rack instrumentation
+[09/20/14 13:48:30 -0700 hakimu-mbp (8016)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 13:48:30 -0700 hakimu-mbp (8016)] INFO : Installing Sidekiq instrumentation
+[09/20/14 13:48:30 -0700 hakimu-mbp (8016)] INFO : Finished instrumentation
+[09/20/14 13:48:30 -0700 hakimu-mbp (8016)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 13:48:53 -0700 hakimu-mbp (8020)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 13:48:53 -0700 hakimu-mbp (8020)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 13:48:53 -0700 hakimu-mbp (8020)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 13:48:53 -0700 hakimu-mbp (8020)] INFO : Environment: development
+[09/20/14 13:48:53 -0700 hakimu-mbp (8020)] INFO : No known dispatcher detected.
+[09/20/14 13:48:53 -0700 hakimu-mbp (8020)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 13:48:53 -0700 hakimu-mbp (8020)] INFO : Installing Net instrumentation
+[09/20/14 13:48:53 -0700 hakimu-mbp (8020)] INFO : Installing Sinatra instrumentation
+[09/20/14 13:48:53 -0700 hakimu-mbp (8020)] INFO : Installing deferred Rack instrumentation
+[09/20/14 13:48:53 -0700 hakimu-mbp (8020)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 13:48:53 -0700 hakimu-mbp (8020)] INFO : Installing Sidekiq instrumentation
+[09/20/14 13:48:53 -0700 hakimu-mbp (8020)] INFO : Finished instrumentation
+[09/20/14 13:48:54 -0700 hakimu-mbp (8020)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 13:49:16 -0700 hakimu-mbp (8027)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 13:49:16 -0700 hakimu-mbp (8027)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 13:49:16 -0700 hakimu-mbp (8027)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 13:49:16 -0700 hakimu-mbp (8027)] INFO : Environment: development
+[09/20/14 13:49:16 -0700 hakimu-mbp (8027)] INFO : No known dispatcher detected.
+[09/20/14 13:49:16 -0700 hakimu-mbp (8027)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 13:49:16 -0700 hakimu-mbp (8027)] INFO : Installing Net instrumentation
+[09/20/14 13:49:16 -0700 hakimu-mbp (8027)] INFO : Installing Sinatra instrumentation
+[09/20/14 13:49:16 -0700 hakimu-mbp (8027)] INFO : Installing deferred Rack instrumentation
+[09/20/14 13:49:16 -0700 hakimu-mbp (8027)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 13:49:16 -0700 hakimu-mbp (8027)] INFO : Installing Sidekiq instrumentation
+[09/20/14 13:49:16 -0700 hakimu-mbp (8027)] INFO : Finished instrumentation
+[09/20/14 13:49:17 -0700 hakimu-mbp (8027)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 13:49:56 -0700 hakimu-mbp (8031)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 13:49:56 -0700 hakimu-mbp (8031)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 13:49:56 -0700 hakimu-mbp (8031)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 13:49:56 -0700 hakimu-mbp (8031)] INFO : Environment: development
+[09/20/14 13:49:56 -0700 hakimu-mbp (8031)] INFO : Dispatcher: sidekiq
+[09/20/14 13:49:56 -0700 hakimu-mbp (8031)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 13:49:56 -0700 hakimu-mbp (8031)] INFO : Installing Net instrumentation
+[09/20/14 13:49:56 -0700 hakimu-mbp (8031)] INFO : Installing Sinatra instrumentation
+[09/20/14 13:49:56 -0700 hakimu-mbp (8031)] INFO : Installing deferred Rack instrumentation
+[09/20/14 13:49:56 -0700 hakimu-mbp (8031)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 13:49:56 -0700 hakimu-mbp (8031)] INFO : Installing Sidekiq instrumentation
+[09/20/14 13:49:56 -0700 hakimu-mbp (8031)] INFO : Finished instrumentation
+[09/20/14 13:49:57 -0700 hakimu-mbp (8031)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 13:54:09 -0700 hakimu-mbp (8061)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 13:54:09 -0700 hakimu-mbp (8061)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 13:54:09 -0700 hakimu-mbp (8061)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 13:54:09 -0700 hakimu-mbp (8061)] INFO : Environment: development
+[09/20/14 13:54:09 -0700 hakimu-mbp (8061)] INFO : Dispatcher: sidekiq
+[09/20/14 13:54:09 -0700 hakimu-mbp (8061)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 13:54:09 -0700 hakimu-mbp (8061)] INFO : Installing Net instrumentation
+[09/20/14 13:54:09 -0700 hakimu-mbp (8061)] INFO : Installing Sinatra instrumentation
+[09/20/14 13:54:09 -0700 hakimu-mbp (8061)] INFO : Installing deferred Rack instrumentation
+[09/20/14 13:54:09 -0700 hakimu-mbp (8061)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 13:54:09 -0700 hakimu-mbp (8061)] INFO : Installing Sidekiq instrumentation
+[09/20/14 13:54:09 -0700 hakimu-mbp (8061)] INFO : Finished instrumentation
+[09/20/14 13:54:10 -0700 hakimu-mbp (8061)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 13:56:53 -0700 hakimu-mbp (8083)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 13:56:53 -0700 hakimu-mbp (8083)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 13:56:53 -0700 hakimu-mbp (8083)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 13:56:53 -0700 hakimu-mbp (8083)] INFO : Environment: development
+[09/20/14 13:56:53 -0700 hakimu-mbp (8083)] INFO : Dispatcher: sidekiq
+[09/20/14 13:56:53 -0700 hakimu-mbp (8083)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 13:56:53 -0700 hakimu-mbp (8083)] INFO : Installing Net instrumentation
+[09/20/14 13:56:53 -0700 hakimu-mbp (8083)] INFO : Installing Sinatra instrumentation
+[09/20/14 13:56:53 -0700 hakimu-mbp (8083)] INFO : Installing deferred Rack instrumentation
+[09/20/14 13:56:53 -0700 hakimu-mbp (8083)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 13:56:53 -0700 hakimu-mbp (8083)] INFO : Installing Sidekiq instrumentation
+[09/20/14 13:56:53 -0700 hakimu-mbp (8083)] INFO : Finished instrumentation
+[09/20/14 13:56:54 -0700 hakimu-mbp (8083)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 14:02:46 -0700 hakimu-mbp (8121)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:02:46 -0700 hakimu-mbp (8121)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:02:46 -0700 hakimu-mbp (8121)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:02:46 -0700 hakimu-mbp (8121)] INFO : Environment: development
+[09/20/14 14:02:46 -0700 hakimu-mbp (8121)] INFO : Dispatcher: sidekiq
+[09/20/14 14:02:46 -0700 hakimu-mbp (8121)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:02:46 -0700 hakimu-mbp (8121)] INFO : Installing Net instrumentation
+[09/20/14 14:02:46 -0700 hakimu-mbp (8121)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:02:46 -0700 hakimu-mbp (8121)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:02:46 -0700 hakimu-mbp (8121)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:02:46 -0700 hakimu-mbp (8121)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:02:46 -0700 hakimu-mbp (8121)] INFO : Finished instrumentation
+[09/20/14 14:02:47 -0700 hakimu-mbp (8121)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 14:06:13 -0700 hakimu-mbp (8183)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:06:13 -0700 hakimu-mbp (8183)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:06:13 -0700 hakimu-mbp (8183)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:06:13 -0700 hakimu-mbp (8183)] INFO : Environment: development
+[09/20/14 14:06:13 -0700 hakimu-mbp (8183)] INFO : No known dispatcher detected.
+[09/20/14 14:06:13 -0700 hakimu-mbp (8183)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:06:13 -0700 hakimu-mbp (8183)] INFO : Installing Net instrumentation
+[09/20/14 14:06:13 -0700 hakimu-mbp (8183)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:06:13 -0700 hakimu-mbp (8183)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:06:13 -0700 hakimu-mbp (8183)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:06:13 -0700 hakimu-mbp (8183)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:06:13 -0700 hakimu-mbp (8183)] INFO : Finished instrumentation
+[09/20/14 14:06:14 -0700 hakimu-mbp (8183)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 14:06:36 -0700 hakimu-mbp (8007)] INFO : Doing deferred dependency-detection before Rack startup
+[09/20/14 14:06:36 -0700 hakimu-mbp (8007)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+[09/20/14 14:06:39 -0700 hakimu-mbp (8012)] INFO : Doing deferred dependency-detection before Rack startup
+[09/20/14 14:08:30 -0700 hakimu-mbp (8200)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:08:30 -0700 hakimu-mbp (8200)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:08:30 -0700 hakimu-mbp (8200)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:08:30 -0700 hakimu-mbp (8200)] INFO : Environment: development
+[09/20/14 14:08:30 -0700 hakimu-mbp (8200)] INFO : Dispatcher: sidekiq
+[09/20/14 14:08:30 -0700 hakimu-mbp (8200)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:08:30 -0700 hakimu-mbp (8200)] INFO : Installing Net instrumentation
+[09/20/14 14:08:30 -0700 hakimu-mbp (8200)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:08:30 -0700 hakimu-mbp (8200)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:08:30 -0700 hakimu-mbp (8200)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:08:30 -0700 hakimu-mbp (8200)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:08:30 -0700 hakimu-mbp (8200)] INFO : Finished instrumentation
+[09/20/14 14:10:35 -0700 hakimu-mbp (8215)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:10:35 -0700 hakimu-mbp (8215)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:10:35 -0700 hakimu-mbp (8215)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:10:35 -0700 hakimu-mbp (8215)] INFO : Environment: development
+[09/20/14 14:10:35 -0700 hakimu-mbp (8215)] INFO : Dispatcher: sidekiq
+[09/20/14 14:10:35 -0700 hakimu-mbp (8215)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:10:35 -0700 hakimu-mbp (8215)] INFO : Installing Net instrumentation
+[09/20/14 14:10:35 -0700 hakimu-mbp (8215)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:10:35 -0700 hakimu-mbp (8215)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:10:35 -0700 hakimu-mbp (8215)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:10:35 -0700 hakimu-mbp (8215)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:10:35 -0700 hakimu-mbp (8215)] INFO : Finished instrumentation
+[09/20/14 14:11:56 -0700 hakimu-mbp (8224)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:11:56 -0700 hakimu-mbp (8224)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:11:56 -0700 hakimu-mbp (8224)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:11:56 -0700 hakimu-mbp (8224)] INFO : Environment: development
+[09/20/14 14:11:56 -0700 hakimu-mbp (8224)] INFO : Dispatcher: sidekiq
+[09/20/14 14:11:56 -0700 hakimu-mbp (8224)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:11:56 -0700 hakimu-mbp (8224)] INFO : Installing Net instrumentation
+[09/20/14 14:11:56 -0700 hakimu-mbp (8224)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:11:56 -0700 hakimu-mbp (8224)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:11:56 -0700 hakimu-mbp (8224)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:11:56 -0700 hakimu-mbp (8224)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:11:56 -0700 hakimu-mbp (8224)] INFO : Finished instrumentation
+[09/20/14 14:12:15 -0700 hakimu-mbp (8230)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:15 -0700 hakimu-mbp (8230)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:15 -0700 hakimu-mbp (8230)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:15 -0700 hakimu-mbp (8230)] INFO : Environment: development
+[09/20/14 14:12:15 -0700 hakimu-mbp (8230)] INFO : Dispatcher: sidekiq
+[09/20/14 14:12:15 -0700 hakimu-mbp (8230)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:15 -0700 hakimu-mbp (8230)] INFO : Installing Net instrumentation
+[09/20/14 14:12:15 -0700 hakimu-mbp (8230)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:15 -0700 hakimu-mbp (8230)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:15 -0700 hakimu-mbp (8230)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:15 -0700 hakimu-mbp (8230)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:15 -0700 hakimu-mbp (8230)] INFO : Finished instrumentation
+[09/20/14 14:12:30 -0700 hakimu-mbp (8237)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:30 -0700 hakimu-mbp (8237)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:30 -0700 hakimu-mbp (8237)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:30 -0700 hakimu-mbp (8237)] INFO : Environment: development
+[09/20/14 14:12:30 -0700 hakimu-mbp (8237)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:30 -0700 hakimu-mbp (8237)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:30 -0700 hakimu-mbp (8237)] INFO : Connecting workers after forking.
+[09/20/14 14:12:30 -0700 hakimu-mbp (8237)] INFO : Installing Net instrumentation
+[09/20/14 14:12:30 -0700 hakimu-mbp (8237)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:30 -0700 hakimu-mbp (8237)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:30 -0700 hakimu-mbp (8237)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:30 -0700 hakimu-mbp (8237)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:30 -0700 hakimu-mbp (8237)] INFO : Finished instrumentation
+[09/20/14 14:12:30 -0700 hakimu-mbp (8238)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:30 -0700 hakimu-mbp (8238)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:30 -0700 hakimu-mbp (8238)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:30 -0700 hakimu-mbp (8238)] INFO : Environment: development
+[09/20/14 14:12:30 -0700 hakimu-mbp (8238)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:30 -0700 hakimu-mbp (8238)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:30 -0700 hakimu-mbp (8238)] INFO : Connecting workers after forking.
+[09/20/14 14:12:30 -0700 hakimu-mbp (8238)] INFO : Installing Net instrumentation
+[09/20/14 14:12:30 -0700 hakimu-mbp (8238)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:30 -0700 hakimu-mbp (8238)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:30 -0700 hakimu-mbp (8238)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:30 -0700 hakimu-mbp (8238)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:30 -0700 hakimu-mbp (8238)] INFO : Finished instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8239)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:31 -0700 hakimu-mbp (8239)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:31 -0700 hakimu-mbp (8239)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:31 -0700 hakimu-mbp (8239)] INFO : Environment: development
+[09/20/14 14:12:31 -0700 hakimu-mbp (8239)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:31 -0700 hakimu-mbp (8239)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:31 -0700 hakimu-mbp (8239)] INFO : Connecting workers after forking.
+[09/20/14 14:12:31 -0700 hakimu-mbp (8239)] INFO : Installing Net instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8239)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8239)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8239)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8239)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8239)] INFO : Finished instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8240)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:31 -0700 hakimu-mbp (8240)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:31 -0700 hakimu-mbp (8240)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:31 -0700 hakimu-mbp (8240)] INFO : Environment: development
+[09/20/14 14:12:31 -0700 hakimu-mbp (8240)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:31 -0700 hakimu-mbp (8240)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:31 -0700 hakimu-mbp (8240)] INFO : Connecting workers after forking.
+[09/20/14 14:12:31 -0700 hakimu-mbp (8240)] INFO : Installing Net instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8240)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8240)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8240)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8240)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8240)] INFO : Finished instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8241)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:31 -0700 hakimu-mbp (8241)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:31 -0700 hakimu-mbp (8241)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:31 -0700 hakimu-mbp (8241)] INFO : Environment: development
+[09/20/14 14:12:31 -0700 hakimu-mbp (8241)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:31 -0700 hakimu-mbp (8241)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:31 -0700 hakimu-mbp (8241)] INFO : Connecting workers after forking.
+[09/20/14 14:12:31 -0700 hakimu-mbp (8241)] INFO : Installing Net instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8241)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8241)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8241)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8241)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8241)] INFO : Finished instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8242)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:31 -0700 hakimu-mbp (8242)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:31 -0700 hakimu-mbp (8242)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:31 -0700 hakimu-mbp (8242)] INFO : Environment: development
+[09/20/14 14:12:31 -0700 hakimu-mbp (8242)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:31 -0700 hakimu-mbp (8242)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:31 -0700 hakimu-mbp (8242)] INFO : Connecting workers after forking.
+[09/20/14 14:12:31 -0700 hakimu-mbp (8242)] INFO : Installing Net instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8242)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8242)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8242)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8242)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8242)] INFO : Finished instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8243)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:31 -0700 hakimu-mbp (8243)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:31 -0700 hakimu-mbp (8243)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:31 -0700 hakimu-mbp (8243)] INFO : Environment: development
+[09/20/14 14:12:31 -0700 hakimu-mbp (8243)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:31 -0700 hakimu-mbp (8243)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:31 -0700 hakimu-mbp (8243)] INFO : Connecting workers after forking.
+[09/20/14 14:12:31 -0700 hakimu-mbp (8243)] INFO : Installing Net instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8243)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8243)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8243)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8243)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:31 -0700 hakimu-mbp (8243)] INFO : Finished instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8244)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:32 -0700 hakimu-mbp (8244)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:32 -0700 hakimu-mbp (8244)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:32 -0700 hakimu-mbp (8244)] INFO : Environment: development
+[09/20/14 14:12:32 -0700 hakimu-mbp (8244)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:32 -0700 hakimu-mbp (8244)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:32 -0700 hakimu-mbp (8244)] INFO : Connecting workers after forking.
+[09/20/14 14:12:32 -0700 hakimu-mbp (8244)] INFO : Installing Net instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8244)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8244)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8244)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8244)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8244)] INFO : Finished instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8245)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:32 -0700 hakimu-mbp (8245)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:32 -0700 hakimu-mbp (8245)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:32 -0700 hakimu-mbp (8245)] INFO : Environment: development
+[09/20/14 14:12:32 -0700 hakimu-mbp (8245)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:32 -0700 hakimu-mbp (8245)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:32 -0700 hakimu-mbp (8245)] INFO : Connecting workers after forking.
+[09/20/14 14:12:32 -0700 hakimu-mbp (8245)] INFO : Installing Net instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8245)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8245)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8245)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8245)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8245)] INFO : Finished instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8246)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:32 -0700 hakimu-mbp (8246)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:32 -0700 hakimu-mbp (8246)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:32 -0700 hakimu-mbp (8246)] INFO : Environment: development
+[09/20/14 14:12:32 -0700 hakimu-mbp (8246)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:32 -0700 hakimu-mbp (8246)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:32 -0700 hakimu-mbp (8246)] INFO : Connecting workers after forking.
+[09/20/14 14:12:32 -0700 hakimu-mbp (8246)] INFO : Installing Net instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8246)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8246)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8246)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8246)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8246)] INFO : Finished instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8247)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:32 -0700 hakimu-mbp (8247)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:32 -0700 hakimu-mbp (8247)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:32 -0700 hakimu-mbp (8247)] INFO : Environment: development
+[09/20/14 14:12:32 -0700 hakimu-mbp (8247)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:32 -0700 hakimu-mbp (8247)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:32 -0700 hakimu-mbp (8247)] INFO : Connecting workers after forking.
+[09/20/14 14:12:32 -0700 hakimu-mbp (8247)] INFO : Installing Net instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8247)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8247)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8247)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8247)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:32 -0700 hakimu-mbp (8247)] INFO : Finished instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8248)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:33 -0700 hakimu-mbp (8248)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:33 -0700 hakimu-mbp (8248)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:33 -0700 hakimu-mbp (8248)] INFO : Environment: development
+[09/20/14 14:12:33 -0700 hakimu-mbp (8248)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:33 -0700 hakimu-mbp (8248)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:33 -0700 hakimu-mbp (8248)] INFO : Connecting workers after forking.
+[09/20/14 14:12:33 -0700 hakimu-mbp (8248)] INFO : Installing Net instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8248)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8248)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8248)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8248)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8248)] INFO : Finished instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8249)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:33 -0700 hakimu-mbp (8249)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:33 -0700 hakimu-mbp (8249)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:33 -0700 hakimu-mbp (8249)] INFO : Environment: development
+[09/20/14 14:12:33 -0700 hakimu-mbp (8249)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:33 -0700 hakimu-mbp (8249)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:33 -0700 hakimu-mbp (8249)] INFO : Connecting workers after forking.
+[09/20/14 14:12:33 -0700 hakimu-mbp (8249)] INFO : Installing Net instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8249)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8249)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8249)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8249)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8249)] INFO : Finished instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8250)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:33 -0700 hakimu-mbp (8250)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:33 -0700 hakimu-mbp (8250)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:33 -0700 hakimu-mbp (8250)] INFO : Environment: development
+[09/20/14 14:12:33 -0700 hakimu-mbp (8250)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:33 -0700 hakimu-mbp (8250)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:33 -0700 hakimu-mbp (8250)] INFO : Connecting workers after forking.
+[09/20/14 14:12:33 -0700 hakimu-mbp (8250)] INFO : Installing Net instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8250)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8250)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8250)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8250)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8250)] INFO : Finished instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8251)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:33 -0700 hakimu-mbp (8251)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:33 -0700 hakimu-mbp (8251)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:33 -0700 hakimu-mbp (8251)] INFO : Environment: development
+[09/20/14 14:12:33 -0700 hakimu-mbp (8251)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:33 -0700 hakimu-mbp (8251)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:33 -0700 hakimu-mbp (8251)] INFO : Connecting workers after forking.
+[09/20/14 14:12:33 -0700 hakimu-mbp (8251)] INFO : Installing Net instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8251)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8251)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8251)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8251)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:33 -0700 hakimu-mbp (8251)] INFO : Finished instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8252)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:34 -0700 hakimu-mbp (8252)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:34 -0700 hakimu-mbp (8252)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:34 -0700 hakimu-mbp (8252)] INFO : Environment: development
+[09/20/14 14:12:34 -0700 hakimu-mbp (8252)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:34 -0700 hakimu-mbp (8252)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:34 -0700 hakimu-mbp (8252)] INFO : Connecting workers after forking.
+[09/20/14 14:12:34 -0700 hakimu-mbp (8252)] INFO : Installing Net instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8252)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8252)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8252)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8252)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8252)] INFO : Finished instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8253)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:34 -0700 hakimu-mbp (8253)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:34 -0700 hakimu-mbp (8253)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:34 -0700 hakimu-mbp (8253)] INFO : Environment: development
+[09/20/14 14:12:34 -0700 hakimu-mbp (8253)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:34 -0700 hakimu-mbp (8253)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:34 -0700 hakimu-mbp (8253)] INFO : Connecting workers after forking.
+[09/20/14 14:12:34 -0700 hakimu-mbp (8253)] INFO : Installing Net instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8253)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8253)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8253)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8253)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8253)] INFO : Finished instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8254)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:34 -0700 hakimu-mbp (8254)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:34 -0700 hakimu-mbp (8254)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:34 -0700 hakimu-mbp (8254)] INFO : Environment: development
+[09/20/14 14:12:34 -0700 hakimu-mbp (8254)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:34 -0700 hakimu-mbp (8254)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:34 -0700 hakimu-mbp (8254)] INFO : Connecting workers after forking.
+[09/20/14 14:12:34 -0700 hakimu-mbp (8254)] INFO : Installing Net instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8254)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8254)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8254)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8254)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8254)] INFO : Finished instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8255)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:34 -0700 hakimu-mbp (8255)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:34 -0700 hakimu-mbp (8255)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:34 -0700 hakimu-mbp (8255)] INFO : Environment: development
+[09/20/14 14:12:34 -0700 hakimu-mbp (8255)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:34 -0700 hakimu-mbp (8255)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:34 -0700 hakimu-mbp (8255)] INFO : Connecting workers after forking.
+[09/20/14 14:12:34 -0700 hakimu-mbp (8255)] INFO : Installing Net instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8255)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8255)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8255)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8255)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:34 -0700 hakimu-mbp (8255)] INFO : Finished instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8256)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:35 -0700 hakimu-mbp (8256)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:35 -0700 hakimu-mbp (8256)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:35 -0700 hakimu-mbp (8256)] INFO : Environment: development
+[09/20/14 14:12:35 -0700 hakimu-mbp (8256)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:35 -0700 hakimu-mbp (8256)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:35 -0700 hakimu-mbp (8256)] INFO : Connecting workers after forking.
+[09/20/14 14:12:35 -0700 hakimu-mbp (8256)] INFO : Installing Net instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8256)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8256)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8256)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8256)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8256)] INFO : Finished instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8257)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:35 -0700 hakimu-mbp (8257)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:35 -0700 hakimu-mbp (8257)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:35 -0700 hakimu-mbp (8257)] INFO : Environment: development
+[09/20/14 14:12:35 -0700 hakimu-mbp (8257)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:35 -0700 hakimu-mbp (8257)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:35 -0700 hakimu-mbp (8257)] INFO : Connecting workers after forking.
+[09/20/14 14:12:35 -0700 hakimu-mbp (8257)] INFO : Installing Net instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8257)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8257)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8257)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8257)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8257)] INFO : Finished instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8258)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:35 -0700 hakimu-mbp (8258)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:35 -0700 hakimu-mbp (8258)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:35 -0700 hakimu-mbp (8258)] INFO : Environment: development
+[09/20/14 14:12:35 -0700 hakimu-mbp (8258)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:35 -0700 hakimu-mbp (8258)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:35 -0700 hakimu-mbp (8258)] INFO : Connecting workers after forking.
+[09/20/14 14:12:35 -0700 hakimu-mbp (8258)] INFO : Installing Net instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8258)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8258)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8258)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8258)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8258)] INFO : Finished instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8259)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:35 -0700 hakimu-mbp (8259)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:35 -0700 hakimu-mbp (8259)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:35 -0700 hakimu-mbp (8259)] INFO : Environment: development
+[09/20/14 14:12:35 -0700 hakimu-mbp (8259)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:35 -0700 hakimu-mbp (8259)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:35 -0700 hakimu-mbp (8259)] INFO : Connecting workers after forking.
+[09/20/14 14:12:35 -0700 hakimu-mbp (8259)] INFO : Installing Net instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8259)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8259)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8259)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8259)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8259)] INFO : Finished instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8260)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:35 -0700 hakimu-mbp (8260)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:35 -0700 hakimu-mbp (8260)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:35 -0700 hakimu-mbp (8260)] INFO : Environment: development
+[09/20/14 14:12:35 -0700 hakimu-mbp (8260)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:35 -0700 hakimu-mbp (8260)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:35 -0700 hakimu-mbp (8260)] INFO : Connecting workers after forking.
+[09/20/14 14:12:35 -0700 hakimu-mbp (8260)] INFO : Installing Net instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8260)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8260)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8260)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8260)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:35 -0700 hakimu-mbp (8260)] INFO : Finished instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8261)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:36 -0700 hakimu-mbp (8261)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:36 -0700 hakimu-mbp (8261)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:36 -0700 hakimu-mbp (8261)] INFO : Environment: development
+[09/20/14 14:12:36 -0700 hakimu-mbp (8261)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:36 -0700 hakimu-mbp (8261)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:36 -0700 hakimu-mbp (8261)] INFO : Connecting workers after forking.
+[09/20/14 14:12:36 -0700 hakimu-mbp (8261)] INFO : Installing Net instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8261)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8261)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8261)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8261)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8261)] INFO : Finished instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8262)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:36 -0700 hakimu-mbp (8262)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:36 -0700 hakimu-mbp (8262)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:36 -0700 hakimu-mbp (8262)] INFO : Environment: development
+[09/20/14 14:12:36 -0700 hakimu-mbp (8262)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:36 -0700 hakimu-mbp (8262)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:36 -0700 hakimu-mbp (8262)] INFO : Connecting workers after forking.
+[09/20/14 14:12:36 -0700 hakimu-mbp (8262)] INFO : Installing Net instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8262)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8262)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8262)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8262)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8262)] INFO : Finished instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8263)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:36 -0700 hakimu-mbp (8263)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:36 -0700 hakimu-mbp (8263)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:36 -0700 hakimu-mbp (8263)] INFO : Environment: development
+[09/20/14 14:12:36 -0700 hakimu-mbp (8263)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:36 -0700 hakimu-mbp (8263)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:36 -0700 hakimu-mbp (8263)] INFO : Connecting workers after forking.
+[09/20/14 14:12:36 -0700 hakimu-mbp (8263)] INFO : Installing Net instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8263)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8263)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8263)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8263)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8263)] INFO : Finished instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8264)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:36 -0700 hakimu-mbp (8264)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:36 -0700 hakimu-mbp (8264)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:36 -0700 hakimu-mbp (8264)] INFO : Environment: development
+[09/20/14 14:12:36 -0700 hakimu-mbp (8264)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:36 -0700 hakimu-mbp (8264)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:36 -0700 hakimu-mbp (8264)] INFO : Connecting workers after forking.
+[09/20/14 14:12:36 -0700 hakimu-mbp (8264)] INFO : Installing Net instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8264)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8264)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8264)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8264)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:36 -0700 hakimu-mbp (8264)] INFO : Finished instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8265)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:37 -0700 hakimu-mbp (8265)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:37 -0700 hakimu-mbp (8265)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:37 -0700 hakimu-mbp (8265)] INFO : Environment: development
+[09/20/14 14:12:37 -0700 hakimu-mbp (8265)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:37 -0700 hakimu-mbp (8265)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:37 -0700 hakimu-mbp (8265)] INFO : Connecting workers after forking.
+[09/20/14 14:12:37 -0700 hakimu-mbp (8265)] INFO : Installing Net instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8265)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8265)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8265)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8265)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8265)] INFO : Finished instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8266)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:37 -0700 hakimu-mbp (8266)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:37 -0700 hakimu-mbp (8266)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:37 -0700 hakimu-mbp (8266)] INFO : Environment: development
+[09/20/14 14:12:37 -0700 hakimu-mbp (8266)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:37 -0700 hakimu-mbp (8266)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:37 -0700 hakimu-mbp (8266)] INFO : Connecting workers after forking.
+[09/20/14 14:12:37 -0700 hakimu-mbp (8266)] INFO : Installing Net instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8266)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8266)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8266)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8266)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8266)] INFO : Finished instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8267)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:37 -0700 hakimu-mbp (8267)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:37 -0700 hakimu-mbp (8267)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:37 -0700 hakimu-mbp (8267)] INFO : Environment: development
+[09/20/14 14:12:37 -0700 hakimu-mbp (8267)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:37 -0700 hakimu-mbp (8267)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:37 -0700 hakimu-mbp (8267)] INFO : Connecting workers after forking.
+[09/20/14 14:12:37 -0700 hakimu-mbp (8267)] INFO : Installing Net instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8267)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8267)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8267)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8267)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8267)] INFO : Finished instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8268)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:37 -0700 hakimu-mbp (8268)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:37 -0700 hakimu-mbp (8268)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:37 -0700 hakimu-mbp (8268)] INFO : Environment: development
+[09/20/14 14:12:37 -0700 hakimu-mbp (8268)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:37 -0700 hakimu-mbp (8268)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:37 -0700 hakimu-mbp (8268)] INFO : Connecting workers after forking.
+[09/20/14 14:12:37 -0700 hakimu-mbp (8268)] INFO : Installing Net instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8268)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8268)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8268)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8268)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:37 -0700 hakimu-mbp (8268)] INFO : Finished instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8269)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:38 -0700 hakimu-mbp (8269)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:38 -0700 hakimu-mbp (8269)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:38 -0700 hakimu-mbp (8269)] INFO : Environment: development
+[09/20/14 14:12:38 -0700 hakimu-mbp (8269)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:38 -0700 hakimu-mbp (8269)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:38 -0700 hakimu-mbp (8269)] INFO : Connecting workers after forking.
+[09/20/14 14:12:38 -0700 hakimu-mbp (8269)] INFO : Installing Net instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8269)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8269)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8269)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8269)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8269)] INFO : Finished instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8270)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:38 -0700 hakimu-mbp (8270)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:38 -0700 hakimu-mbp (8270)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:38 -0700 hakimu-mbp (8270)] INFO : Environment: development
+[09/20/14 14:12:38 -0700 hakimu-mbp (8270)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:38 -0700 hakimu-mbp (8270)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:38 -0700 hakimu-mbp (8270)] INFO : Connecting workers after forking.
+[09/20/14 14:12:38 -0700 hakimu-mbp (8270)] INFO : Installing Net instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8270)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8270)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8270)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8270)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8270)] INFO : Finished instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8271)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:38 -0700 hakimu-mbp (8271)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:38 -0700 hakimu-mbp (8271)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:38 -0700 hakimu-mbp (8271)] INFO : Environment: development
+[09/20/14 14:12:38 -0700 hakimu-mbp (8271)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:38 -0700 hakimu-mbp (8271)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:38 -0700 hakimu-mbp (8271)] INFO : Connecting workers after forking.
+[09/20/14 14:12:38 -0700 hakimu-mbp (8271)] INFO : Installing Net instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8271)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8271)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8271)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8271)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8271)] INFO : Finished instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8272)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:38 -0700 hakimu-mbp (8272)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:38 -0700 hakimu-mbp (8272)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:38 -0700 hakimu-mbp (8272)] INFO : Environment: development
+[09/20/14 14:12:38 -0700 hakimu-mbp (8272)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:38 -0700 hakimu-mbp (8272)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:38 -0700 hakimu-mbp (8272)] INFO : Connecting workers after forking.
+[09/20/14 14:12:38 -0700 hakimu-mbp (8272)] INFO : Installing Net instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8272)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8272)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8272)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8272)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:38 -0700 hakimu-mbp (8272)] INFO : Finished instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8273)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:39 -0700 hakimu-mbp (8273)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:39 -0700 hakimu-mbp (8273)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:39 -0700 hakimu-mbp (8273)] INFO : Environment: development
+[09/20/14 14:12:39 -0700 hakimu-mbp (8273)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:39 -0700 hakimu-mbp (8273)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:39 -0700 hakimu-mbp (8273)] INFO : Connecting workers after forking.
+[09/20/14 14:12:39 -0700 hakimu-mbp (8273)] INFO : Installing Net instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8273)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8273)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8273)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8273)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8273)] INFO : Finished instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8274)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:39 -0700 hakimu-mbp (8274)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:39 -0700 hakimu-mbp (8274)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:39 -0700 hakimu-mbp (8274)] INFO : Environment: development
+[09/20/14 14:12:39 -0700 hakimu-mbp (8274)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:39 -0700 hakimu-mbp (8274)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:39 -0700 hakimu-mbp (8274)] INFO : Connecting workers after forking.
+[09/20/14 14:12:39 -0700 hakimu-mbp (8274)] INFO : Installing Net instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8274)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8274)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8274)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8274)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8274)] INFO : Finished instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8275)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:39 -0700 hakimu-mbp (8275)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:39 -0700 hakimu-mbp (8275)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:39 -0700 hakimu-mbp (8275)] INFO : Environment: development
+[09/20/14 14:12:39 -0700 hakimu-mbp (8275)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:39 -0700 hakimu-mbp (8275)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:39 -0700 hakimu-mbp (8275)] INFO : Connecting workers after forking.
+[09/20/14 14:12:39 -0700 hakimu-mbp (8275)] INFO : Installing Net instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8275)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8275)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8275)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8275)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8275)] INFO : Finished instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8276)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:39 -0700 hakimu-mbp (8276)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:39 -0700 hakimu-mbp (8276)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:39 -0700 hakimu-mbp (8276)] INFO : Environment: development
+[09/20/14 14:12:39 -0700 hakimu-mbp (8276)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:39 -0700 hakimu-mbp (8276)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:39 -0700 hakimu-mbp (8276)] INFO : Connecting workers after forking.
+[09/20/14 14:12:39 -0700 hakimu-mbp (8276)] INFO : Installing Net instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8276)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8276)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8276)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8276)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8276)] INFO : Finished instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8277)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:39 -0700 hakimu-mbp (8277)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:39 -0700 hakimu-mbp (8277)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:39 -0700 hakimu-mbp (8277)] INFO : Environment: development
+[09/20/14 14:12:39 -0700 hakimu-mbp (8277)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:39 -0700 hakimu-mbp (8277)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:39 -0700 hakimu-mbp (8277)] INFO : Connecting workers after forking.
+[09/20/14 14:12:39 -0700 hakimu-mbp (8277)] INFO : Installing Net instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8277)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8277)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8277)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8277)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:39 -0700 hakimu-mbp (8277)] INFO : Finished instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8278)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:40 -0700 hakimu-mbp (8278)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:40 -0700 hakimu-mbp (8278)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:40 -0700 hakimu-mbp (8278)] INFO : Environment: development
+[09/20/14 14:12:40 -0700 hakimu-mbp (8278)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:40 -0700 hakimu-mbp (8278)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:40 -0700 hakimu-mbp (8278)] INFO : Connecting workers after forking.
+[09/20/14 14:12:40 -0700 hakimu-mbp (8278)] INFO : Installing Net instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8278)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8278)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8278)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8278)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8278)] INFO : Finished instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8279)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:40 -0700 hakimu-mbp (8279)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:40 -0700 hakimu-mbp (8279)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:40 -0700 hakimu-mbp (8279)] INFO : Environment: development
+[09/20/14 14:12:40 -0700 hakimu-mbp (8279)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:40 -0700 hakimu-mbp (8279)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:40 -0700 hakimu-mbp (8279)] INFO : Connecting workers after forking.
+[09/20/14 14:12:40 -0700 hakimu-mbp (8279)] INFO : Installing Net instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8279)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8279)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8279)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8279)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8279)] INFO : Finished instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8280)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:40 -0700 hakimu-mbp (8280)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:40 -0700 hakimu-mbp (8280)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:40 -0700 hakimu-mbp (8280)] INFO : Environment: development
+[09/20/14 14:12:40 -0700 hakimu-mbp (8280)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:40 -0700 hakimu-mbp (8280)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:40 -0700 hakimu-mbp (8280)] INFO : Connecting workers after forking.
+[09/20/14 14:12:40 -0700 hakimu-mbp (8280)] INFO : Installing Net instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8280)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8280)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8280)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8280)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8280)] INFO : Finished instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8281)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:40 -0700 hakimu-mbp (8281)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:40 -0700 hakimu-mbp (8281)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:40 -0700 hakimu-mbp (8281)] INFO : Environment: development
+[09/20/14 14:12:40 -0700 hakimu-mbp (8281)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:40 -0700 hakimu-mbp (8281)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:40 -0700 hakimu-mbp (8281)] INFO : Connecting workers after forking.
+[09/20/14 14:12:40 -0700 hakimu-mbp (8281)] INFO : Installing Net instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8281)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8281)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8281)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8281)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:40 -0700 hakimu-mbp (8281)] INFO : Finished instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8282)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:41 -0700 hakimu-mbp (8282)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:41 -0700 hakimu-mbp (8282)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:41 -0700 hakimu-mbp (8282)] INFO : Environment: development
+[09/20/14 14:12:41 -0700 hakimu-mbp (8282)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:41 -0700 hakimu-mbp (8282)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:41 -0700 hakimu-mbp (8282)] INFO : Connecting workers after forking.
+[09/20/14 14:12:41 -0700 hakimu-mbp (8282)] INFO : Installing Net instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8282)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8282)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8282)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8282)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8282)] INFO : Finished instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8283)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:41 -0700 hakimu-mbp (8283)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:41 -0700 hakimu-mbp (8283)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:41 -0700 hakimu-mbp (8283)] INFO : Environment: development
+[09/20/14 14:12:41 -0700 hakimu-mbp (8283)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:41 -0700 hakimu-mbp (8283)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:41 -0700 hakimu-mbp (8283)] INFO : Connecting workers after forking.
+[09/20/14 14:12:41 -0700 hakimu-mbp (8283)] INFO : Installing Net instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8283)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8283)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8283)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8283)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8283)] INFO : Finished instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8284)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:41 -0700 hakimu-mbp (8284)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:41 -0700 hakimu-mbp (8284)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:41 -0700 hakimu-mbp (8284)] INFO : Environment: development
+[09/20/14 14:12:41 -0700 hakimu-mbp (8284)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:41 -0700 hakimu-mbp (8284)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:41 -0700 hakimu-mbp (8284)] INFO : Connecting workers after forking.
+[09/20/14 14:12:41 -0700 hakimu-mbp (8284)] INFO : Installing Net instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8284)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8284)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8284)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8284)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8284)] INFO : Finished instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8285)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:41 -0700 hakimu-mbp (8285)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:41 -0700 hakimu-mbp (8285)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:41 -0700 hakimu-mbp (8285)] INFO : Environment: development
+[09/20/14 14:12:41 -0700 hakimu-mbp (8285)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:41 -0700 hakimu-mbp (8285)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:41 -0700 hakimu-mbp (8285)] INFO : Connecting workers after forking.
+[09/20/14 14:12:41 -0700 hakimu-mbp (8285)] INFO : Installing Net instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8285)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8285)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8285)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8285)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:41 -0700 hakimu-mbp (8285)] INFO : Finished instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8286)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:42 -0700 hakimu-mbp (8286)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:42 -0700 hakimu-mbp (8286)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:42 -0700 hakimu-mbp (8286)] INFO : Environment: development
+[09/20/14 14:12:42 -0700 hakimu-mbp (8286)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:42 -0700 hakimu-mbp (8286)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:42 -0700 hakimu-mbp (8286)] INFO : Connecting workers after forking.
+[09/20/14 14:12:42 -0700 hakimu-mbp (8286)] INFO : Installing Net instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8286)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8286)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8286)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8286)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8286)] INFO : Finished instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8287)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:42 -0700 hakimu-mbp (8287)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:42 -0700 hakimu-mbp (8287)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:42 -0700 hakimu-mbp (8287)] INFO : Environment: development
+[09/20/14 14:12:42 -0700 hakimu-mbp (8287)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:42 -0700 hakimu-mbp (8287)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:42 -0700 hakimu-mbp (8287)] INFO : Connecting workers after forking.
+[09/20/14 14:12:42 -0700 hakimu-mbp (8287)] INFO : Installing Net instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8287)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8287)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8287)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8287)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8287)] INFO : Finished instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8288)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:42 -0700 hakimu-mbp (8288)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:42 -0700 hakimu-mbp (8288)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:42 -0700 hakimu-mbp (8288)] INFO : Environment: development
+[09/20/14 14:12:42 -0700 hakimu-mbp (8288)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:42 -0700 hakimu-mbp (8288)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:42 -0700 hakimu-mbp (8288)] INFO : Connecting workers after forking.
+[09/20/14 14:12:42 -0700 hakimu-mbp (8288)] INFO : Installing Net instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8288)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8288)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8288)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8288)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8288)] INFO : Finished instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8289)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:42 -0700 hakimu-mbp (8289)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:42 -0700 hakimu-mbp (8289)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:42 -0700 hakimu-mbp (8289)] INFO : Environment: development
+[09/20/14 14:12:42 -0700 hakimu-mbp (8289)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:42 -0700 hakimu-mbp (8289)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:42 -0700 hakimu-mbp (8289)] INFO : Connecting workers after forking.
+[09/20/14 14:12:42 -0700 hakimu-mbp (8289)] INFO : Installing Net instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8289)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8289)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8289)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8289)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:42 -0700 hakimu-mbp (8289)] INFO : Finished instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8290)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:43 -0700 hakimu-mbp (8290)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:43 -0700 hakimu-mbp (8290)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:43 -0700 hakimu-mbp (8290)] INFO : Environment: development
+[09/20/14 14:12:43 -0700 hakimu-mbp (8290)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:43 -0700 hakimu-mbp (8290)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:43 -0700 hakimu-mbp (8290)] INFO : Connecting workers after forking.
+[09/20/14 14:12:43 -0700 hakimu-mbp (8290)] INFO : Installing Net instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8290)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8290)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8290)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8290)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8290)] INFO : Finished instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8291)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:43 -0700 hakimu-mbp (8291)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:43 -0700 hakimu-mbp (8291)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:43 -0700 hakimu-mbp (8291)] INFO : Environment: development
+[09/20/14 14:12:43 -0700 hakimu-mbp (8291)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:43 -0700 hakimu-mbp (8291)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:43 -0700 hakimu-mbp (8291)] INFO : Connecting workers after forking.
+[09/20/14 14:12:43 -0700 hakimu-mbp (8291)] INFO : Installing Net instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8291)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8291)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8291)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8291)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8291)] INFO : Finished instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8292)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:43 -0700 hakimu-mbp (8292)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:43 -0700 hakimu-mbp (8292)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:43 -0700 hakimu-mbp (8292)] INFO : Environment: development
+[09/20/14 14:12:43 -0700 hakimu-mbp (8292)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:43 -0700 hakimu-mbp (8292)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:43 -0700 hakimu-mbp (8292)] INFO : Connecting workers after forking.
+[09/20/14 14:12:43 -0700 hakimu-mbp (8292)] INFO : Installing Net instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8292)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8292)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8292)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8292)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8292)] INFO : Finished instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8293)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:43 -0700 hakimu-mbp (8293)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:43 -0700 hakimu-mbp (8293)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:43 -0700 hakimu-mbp (8293)] INFO : Environment: development
+[09/20/14 14:12:43 -0700 hakimu-mbp (8293)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:43 -0700 hakimu-mbp (8293)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:43 -0700 hakimu-mbp (8293)] INFO : Connecting workers after forking.
+[09/20/14 14:12:43 -0700 hakimu-mbp (8293)] INFO : Installing Net instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8293)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8293)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8293)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8293)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:43 -0700 hakimu-mbp (8293)] INFO : Finished instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8294)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:44 -0700 hakimu-mbp (8294)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:44 -0700 hakimu-mbp (8294)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:44 -0700 hakimu-mbp (8294)] INFO : Environment: development
+[09/20/14 14:12:44 -0700 hakimu-mbp (8294)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:44 -0700 hakimu-mbp (8294)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:44 -0700 hakimu-mbp (8294)] INFO : Connecting workers after forking.
+[09/20/14 14:12:44 -0700 hakimu-mbp (8294)] INFO : Installing Net instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8294)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8294)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8294)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8294)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8294)] INFO : Finished instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8295)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:44 -0700 hakimu-mbp (8295)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:44 -0700 hakimu-mbp (8295)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:44 -0700 hakimu-mbp (8295)] INFO : Environment: development
+[09/20/14 14:12:44 -0700 hakimu-mbp (8295)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:44 -0700 hakimu-mbp (8295)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:44 -0700 hakimu-mbp (8295)] INFO : Connecting workers after forking.
+[09/20/14 14:12:44 -0700 hakimu-mbp (8295)] INFO : Installing Net instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8295)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8295)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8295)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8295)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8295)] INFO : Finished instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8296)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:44 -0700 hakimu-mbp (8296)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:44 -0700 hakimu-mbp (8296)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:44 -0700 hakimu-mbp (8296)] INFO : Environment: development
+[09/20/14 14:12:44 -0700 hakimu-mbp (8296)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:44 -0700 hakimu-mbp (8296)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:44 -0700 hakimu-mbp (8296)] INFO : Connecting workers after forking.
+[09/20/14 14:12:44 -0700 hakimu-mbp (8296)] INFO : Installing Net instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8296)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8296)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8296)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8296)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:44 -0700 hakimu-mbp (8296)] INFO : Finished instrumentation
+[09/20/14 14:12:54 -0700 hakimu-mbp (8299)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:12:54 -0700 hakimu-mbp (8299)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:12:54 -0700 hakimu-mbp (8299)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:12:54 -0700 hakimu-mbp (8299)] INFO : Environment: development
+[09/20/14 14:12:54 -0700 hakimu-mbp (8299)] INFO : Dispatcher: unicorn
+[09/20/14 14:12:54 -0700 hakimu-mbp (8299)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:12:54 -0700 hakimu-mbp (8299)] INFO : Connecting workers after forking.
+[09/20/14 14:12:54 -0700 hakimu-mbp (8299)] INFO : Installing Net instrumentation
+[09/20/14 14:12:54 -0700 hakimu-mbp (8299)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:12:54 -0700 hakimu-mbp (8299)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:12:54 -0700 hakimu-mbp (8299)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:12:54 -0700 hakimu-mbp (8299)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:12:54 -0700 hakimu-mbp (8299)] INFO : Finished instrumentation
+[09/20/14 14:12:54 -0700 hakimu-mbp (8299)] INFO : Doing deferred dependency-detection before Rack startup
+[09/20/14 14:13:03 -0700 hakimu-mbp (8299)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 14:13:04 -0700 hakimu-mbp (8299)] WARN : Skipping RUM instrumentation. Unable to find <body> tag in first 50000 bytes of document.
+[09/20/14 14:16:15 -0700 hakimu-mbp (8315)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:15 -0700 hakimu-mbp (8315)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:15 -0700 hakimu-mbp (8315)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:15 -0700 hakimu-mbp (8315)] INFO : Environment: development
+[09/20/14 14:16:15 -0700 hakimu-mbp (8315)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:15 -0700 hakimu-mbp (8315)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:15 -0700 hakimu-mbp (8315)] INFO : Connecting workers after forking.
+[09/20/14 14:16:15 -0700 hakimu-mbp (8315)] INFO : Installing Net instrumentation
+[09/20/14 14:16:15 -0700 hakimu-mbp (8315)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:15 -0700 hakimu-mbp (8315)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:15 -0700 hakimu-mbp (8315)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:15 -0700 hakimu-mbp (8315)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:15 -0700 hakimu-mbp (8315)] INFO : Finished instrumentation
+[09/20/14 14:16:15 -0700 hakimu-mbp (8316)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:15 -0700 hakimu-mbp (8316)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:15 -0700 hakimu-mbp (8316)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:15 -0700 hakimu-mbp (8316)] INFO : Environment: development
+[09/20/14 14:16:15 -0700 hakimu-mbp (8316)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:15 -0700 hakimu-mbp (8316)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:15 -0700 hakimu-mbp (8316)] INFO : Connecting workers after forking.
+[09/20/14 14:16:15 -0700 hakimu-mbp (8316)] INFO : Installing Net instrumentation
+[09/20/14 14:16:15 -0700 hakimu-mbp (8316)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:15 -0700 hakimu-mbp (8316)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:15 -0700 hakimu-mbp (8316)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:15 -0700 hakimu-mbp (8316)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:15 -0700 hakimu-mbp (8316)] INFO : Finished instrumentation
+[09/20/14 14:16:15 -0700 hakimu-mbp (8317)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:15 -0700 hakimu-mbp (8317)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:15 -0700 hakimu-mbp (8317)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:15 -0700 hakimu-mbp (8317)] INFO : Environment: development
+[09/20/14 14:16:15 -0700 hakimu-mbp (8317)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:15 -0700 hakimu-mbp (8317)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:15 -0700 hakimu-mbp (8317)] INFO : Connecting workers after forking.
+[09/20/14 14:16:15 -0700 hakimu-mbp (8317)] INFO : Installing Net instrumentation
+[09/20/14 14:16:15 -0700 hakimu-mbp (8317)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:15 -0700 hakimu-mbp (8317)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:15 -0700 hakimu-mbp (8317)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:15 -0700 hakimu-mbp (8317)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:15 -0700 hakimu-mbp (8317)] INFO : Finished instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8318)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:16 -0700 hakimu-mbp (8318)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:16 -0700 hakimu-mbp (8318)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:16 -0700 hakimu-mbp (8318)] INFO : Environment: development
+[09/20/14 14:16:16 -0700 hakimu-mbp (8318)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:16 -0700 hakimu-mbp (8318)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:16 -0700 hakimu-mbp (8318)] INFO : Connecting workers after forking.
+[09/20/14 14:16:16 -0700 hakimu-mbp (8318)] INFO : Installing Net instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8318)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8318)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8318)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8318)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8318)] INFO : Finished instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8319)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:16 -0700 hakimu-mbp (8319)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:16 -0700 hakimu-mbp (8319)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:16 -0700 hakimu-mbp (8319)] INFO : Environment: development
+[09/20/14 14:16:16 -0700 hakimu-mbp (8319)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:16 -0700 hakimu-mbp (8319)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:16 -0700 hakimu-mbp (8319)] INFO : Connecting workers after forking.
+[09/20/14 14:16:16 -0700 hakimu-mbp (8319)] INFO : Installing Net instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8319)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8319)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8319)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8319)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8319)] INFO : Finished instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8320)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:16 -0700 hakimu-mbp (8320)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:16 -0700 hakimu-mbp (8320)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:16 -0700 hakimu-mbp (8320)] INFO : Environment: development
+[09/20/14 14:16:16 -0700 hakimu-mbp (8320)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:16 -0700 hakimu-mbp (8320)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:16 -0700 hakimu-mbp (8320)] INFO : Connecting workers after forking.
+[09/20/14 14:16:16 -0700 hakimu-mbp (8320)] INFO : Installing Net instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8320)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8320)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8320)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8320)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8320)] INFO : Finished instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8321)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:16 -0700 hakimu-mbp (8321)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:16 -0700 hakimu-mbp (8321)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:16 -0700 hakimu-mbp (8321)] INFO : Environment: development
+[09/20/14 14:16:16 -0700 hakimu-mbp (8321)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:16 -0700 hakimu-mbp (8321)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:16 -0700 hakimu-mbp (8321)] INFO : Connecting workers after forking.
+[09/20/14 14:16:16 -0700 hakimu-mbp (8321)] INFO : Installing Net instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8321)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8321)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8321)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8321)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:16 -0700 hakimu-mbp (8321)] INFO : Finished instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8322)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:17 -0700 hakimu-mbp (8322)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:17 -0700 hakimu-mbp (8322)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:17 -0700 hakimu-mbp (8322)] INFO : Environment: development
+[09/20/14 14:16:17 -0700 hakimu-mbp (8322)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:17 -0700 hakimu-mbp (8322)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:17 -0700 hakimu-mbp (8322)] INFO : Connecting workers after forking.
+[09/20/14 14:16:17 -0700 hakimu-mbp (8322)] INFO : Installing Net instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8322)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8322)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8322)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8322)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8322)] INFO : Finished instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8323)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:17 -0700 hakimu-mbp (8323)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:17 -0700 hakimu-mbp (8323)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:17 -0700 hakimu-mbp (8323)] INFO : Environment: development
+[09/20/14 14:16:17 -0700 hakimu-mbp (8323)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:17 -0700 hakimu-mbp (8323)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:17 -0700 hakimu-mbp (8323)] INFO : Connecting workers after forking.
+[09/20/14 14:16:17 -0700 hakimu-mbp (8323)] INFO : Installing Net instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8323)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8323)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8323)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8323)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8323)] INFO : Finished instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8324)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:17 -0700 hakimu-mbp (8324)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:17 -0700 hakimu-mbp (8324)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:17 -0700 hakimu-mbp (8324)] INFO : Environment: development
+[09/20/14 14:16:17 -0700 hakimu-mbp (8324)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:17 -0700 hakimu-mbp (8324)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:17 -0700 hakimu-mbp (8324)] INFO : Connecting workers after forking.
+[09/20/14 14:16:17 -0700 hakimu-mbp (8324)] INFO : Installing Net instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8324)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8324)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8324)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8324)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8324)] INFO : Finished instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8325)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:17 -0700 hakimu-mbp (8325)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:17 -0700 hakimu-mbp (8325)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:17 -0700 hakimu-mbp (8325)] INFO : Environment: development
+[09/20/14 14:16:17 -0700 hakimu-mbp (8325)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:17 -0700 hakimu-mbp (8325)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:17 -0700 hakimu-mbp (8325)] INFO : Connecting workers after forking.
+[09/20/14 14:16:17 -0700 hakimu-mbp (8325)] INFO : Installing Net instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8325)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8325)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8325)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8325)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:17 -0700 hakimu-mbp (8325)] INFO : Finished instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8326)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:18 -0700 hakimu-mbp (8326)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:18 -0700 hakimu-mbp (8326)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:18 -0700 hakimu-mbp (8326)] INFO : Environment: development
+[09/20/14 14:16:18 -0700 hakimu-mbp (8326)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:18 -0700 hakimu-mbp (8326)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:18 -0700 hakimu-mbp (8326)] INFO : Connecting workers after forking.
+[09/20/14 14:16:18 -0700 hakimu-mbp (8326)] INFO : Installing Net instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8326)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8326)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8326)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8326)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8326)] INFO : Finished instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8327)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:18 -0700 hakimu-mbp (8327)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:18 -0700 hakimu-mbp (8327)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:18 -0700 hakimu-mbp (8327)] INFO : Environment: development
+[09/20/14 14:16:18 -0700 hakimu-mbp (8327)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:18 -0700 hakimu-mbp (8327)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:18 -0700 hakimu-mbp (8327)] INFO : Connecting workers after forking.
+[09/20/14 14:16:18 -0700 hakimu-mbp (8327)] INFO : Installing Net instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8327)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8327)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8327)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8327)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8327)] INFO : Finished instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8328)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:18 -0700 hakimu-mbp (8328)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:18 -0700 hakimu-mbp (8328)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:18 -0700 hakimu-mbp (8328)] INFO : Environment: development
+[09/20/14 14:16:18 -0700 hakimu-mbp (8328)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:18 -0700 hakimu-mbp (8328)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:18 -0700 hakimu-mbp (8328)] INFO : Connecting workers after forking.
+[09/20/14 14:16:18 -0700 hakimu-mbp (8328)] INFO : Installing Net instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8328)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8328)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8328)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8328)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8328)] INFO : Finished instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8329)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:18 -0700 hakimu-mbp (8329)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:18 -0700 hakimu-mbp (8329)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:18 -0700 hakimu-mbp (8329)] INFO : Environment: development
+[09/20/14 14:16:18 -0700 hakimu-mbp (8329)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:18 -0700 hakimu-mbp (8329)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:18 -0700 hakimu-mbp (8329)] INFO : Connecting workers after forking.
+[09/20/14 14:16:18 -0700 hakimu-mbp (8329)] INFO : Installing Net instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8329)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8329)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8329)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8329)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:18 -0700 hakimu-mbp (8329)] INFO : Finished instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8330)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:19 -0700 hakimu-mbp (8330)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:19 -0700 hakimu-mbp (8330)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:19 -0700 hakimu-mbp (8330)] INFO : Environment: development
+[09/20/14 14:16:19 -0700 hakimu-mbp (8330)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:19 -0700 hakimu-mbp (8330)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:19 -0700 hakimu-mbp (8330)] INFO : Connecting workers after forking.
+[09/20/14 14:16:19 -0700 hakimu-mbp (8330)] INFO : Installing Net instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8330)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8330)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8330)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8330)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8330)] INFO : Finished instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8331)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:19 -0700 hakimu-mbp (8331)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:19 -0700 hakimu-mbp (8331)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:19 -0700 hakimu-mbp (8331)] INFO : Environment: development
+[09/20/14 14:16:19 -0700 hakimu-mbp (8331)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:19 -0700 hakimu-mbp (8331)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:19 -0700 hakimu-mbp (8331)] INFO : Connecting workers after forking.
+[09/20/14 14:16:19 -0700 hakimu-mbp (8331)] INFO : Installing Net instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8331)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8331)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8331)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8331)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8331)] INFO : Finished instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8332)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:19 -0700 hakimu-mbp (8332)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:19 -0700 hakimu-mbp (8332)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:19 -0700 hakimu-mbp (8332)] INFO : Environment: development
+[09/20/14 14:16:19 -0700 hakimu-mbp (8332)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:19 -0700 hakimu-mbp (8332)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:19 -0700 hakimu-mbp (8332)] INFO : Connecting workers after forking.
+[09/20/14 14:16:19 -0700 hakimu-mbp (8332)] INFO : Installing Net instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8332)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8332)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8332)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8332)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8332)] INFO : Finished instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8333)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:19 -0700 hakimu-mbp (8333)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:19 -0700 hakimu-mbp (8333)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:19 -0700 hakimu-mbp (8333)] INFO : Environment: development
+[09/20/14 14:16:19 -0700 hakimu-mbp (8333)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:19 -0700 hakimu-mbp (8333)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:19 -0700 hakimu-mbp (8333)] INFO : Connecting workers after forking.
+[09/20/14 14:16:19 -0700 hakimu-mbp (8333)] INFO : Installing Net instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8333)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8333)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8333)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8333)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8333)] INFO : Finished instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8334)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:19 -0700 hakimu-mbp (8334)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:19 -0700 hakimu-mbp (8334)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:19 -0700 hakimu-mbp (8334)] INFO : Environment: development
+[09/20/14 14:16:19 -0700 hakimu-mbp (8334)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:19 -0700 hakimu-mbp (8334)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:19 -0700 hakimu-mbp (8334)] INFO : Connecting workers after forking.
+[09/20/14 14:16:19 -0700 hakimu-mbp (8334)] INFO : Installing Net instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8334)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8334)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8334)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8334)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:19 -0700 hakimu-mbp (8334)] INFO : Finished instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8335)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:20 -0700 hakimu-mbp (8335)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:20 -0700 hakimu-mbp (8335)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:20 -0700 hakimu-mbp (8335)] INFO : Environment: development
+[09/20/14 14:16:20 -0700 hakimu-mbp (8335)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:20 -0700 hakimu-mbp (8335)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:20 -0700 hakimu-mbp (8335)] INFO : Connecting workers after forking.
+[09/20/14 14:16:20 -0700 hakimu-mbp (8335)] INFO : Installing Net instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8335)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8335)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8335)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8335)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8335)] INFO : Finished instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8336)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:20 -0700 hakimu-mbp (8336)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:20 -0700 hakimu-mbp (8336)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:20 -0700 hakimu-mbp (8336)] INFO : Environment: development
+[09/20/14 14:16:20 -0700 hakimu-mbp (8336)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:20 -0700 hakimu-mbp (8336)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:20 -0700 hakimu-mbp (8336)] INFO : Connecting workers after forking.
+[09/20/14 14:16:20 -0700 hakimu-mbp (8336)] INFO : Installing Net instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8336)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8336)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8336)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8336)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8336)] INFO : Finished instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8337)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:20 -0700 hakimu-mbp (8337)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:20 -0700 hakimu-mbp (8337)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:20 -0700 hakimu-mbp (8337)] INFO : Environment: development
+[09/20/14 14:16:20 -0700 hakimu-mbp (8337)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:20 -0700 hakimu-mbp (8337)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:20 -0700 hakimu-mbp (8337)] INFO : Connecting workers after forking.
+[09/20/14 14:16:20 -0700 hakimu-mbp (8337)] INFO : Installing Net instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8337)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8337)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8337)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8337)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8337)] INFO : Finished instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8338)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:20 -0700 hakimu-mbp (8338)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:20 -0700 hakimu-mbp (8338)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:20 -0700 hakimu-mbp (8338)] INFO : Environment: development
+[09/20/14 14:16:20 -0700 hakimu-mbp (8338)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:20 -0700 hakimu-mbp (8338)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:20 -0700 hakimu-mbp (8338)] INFO : Connecting workers after forking.
+[09/20/14 14:16:20 -0700 hakimu-mbp (8338)] INFO : Installing Net instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8338)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8338)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8338)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8338)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:20 -0700 hakimu-mbp (8338)] INFO : Finished instrumentation
+[09/20/14 14:16:21 -0700 hakimu-mbp (8339)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:16:21 -0700 hakimu-mbp (8339)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:16:21 -0700 hakimu-mbp (8339)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:16:21 -0700 hakimu-mbp (8339)] INFO : Environment: development
+[09/20/14 14:16:21 -0700 hakimu-mbp (8339)] INFO : Dispatcher: unicorn
+[09/20/14 14:16:21 -0700 hakimu-mbp (8339)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:16:21 -0700 hakimu-mbp (8339)] INFO : Connecting workers after forking.
+[09/20/14 14:16:21 -0700 hakimu-mbp (8339)] INFO : Installing Net instrumentation
+[09/20/14 14:16:21 -0700 hakimu-mbp (8339)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:16:21 -0700 hakimu-mbp (8339)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:16:21 -0700 hakimu-mbp (8339)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:16:21 -0700 hakimu-mbp (8339)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:16:21 -0700 hakimu-mbp (8339)] INFO : Finished instrumentation
+[09/20/14 14:17:31 -0700 hakimu-mbp (8343)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:17:31 -0700 hakimu-mbp (8343)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:17:31 -0700 hakimu-mbp (8343)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:17:31 -0700 hakimu-mbp (8343)] INFO : Environment: development
+[09/20/14 14:17:31 -0700 hakimu-mbp (8343)] INFO : No known dispatcher detected.
+[09/20/14 14:17:31 -0700 hakimu-mbp (8343)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:17:31 -0700 hakimu-mbp (8343)] INFO : Installing Net instrumentation
+[09/20/14 14:17:31 -0700 hakimu-mbp (8343)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:17:31 -0700 hakimu-mbp (8343)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:17:31 -0700 hakimu-mbp (8343)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:17:31 -0700 hakimu-mbp (8343)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:17:31 -0700 hakimu-mbp (8343)] INFO : Finished instrumentation
+[09/20/14 14:17:44 -0700 hakimu-mbp (8347)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:17:44 -0700 hakimu-mbp (8347)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:17:44 -0700 hakimu-mbp (8347)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:17:44 -0700 hakimu-mbp (8347)] INFO : Environment: development
+[09/20/14 14:17:44 -0700 hakimu-mbp (8347)] INFO : No known dispatcher detected.
+[09/20/14 14:17:44 -0700 hakimu-mbp (8347)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:17:44 -0700 hakimu-mbp (8347)] INFO : Installing Net instrumentation
+[09/20/14 14:17:44 -0700 hakimu-mbp (8347)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:17:44 -0700 hakimu-mbp (8347)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:17:44 -0700 hakimu-mbp (8347)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:17:44 -0700 hakimu-mbp (8347)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:17:44 -0700 hakimu-mbp (8347)] INFO : Finished instrumentation
+[09/20/14 14:17:56 -0700 hakimu-mbp (8351)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:17:56 -0700 hakimu-mbp (8351)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:17:56 -0700 hakimu-mbp (8351)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:17:56 -0700 hakimu-mbp (8351)] INFO : Environment: development
+[09/20/14 14:17:56 -0700 hakimu-mbp (8351)] INFO : No known dispatcher detected.
+[09/20/14 14:17:56 -0700 hakimu-mbp (8351)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:17:56 -0700 hakimu-mbp (8351)] INFO : Installing Net instrumentation
+[09/20/14 14:17:56 -0700 hakimu-mbp (8351)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:17:56 -0700 hakimu-mbp (8351)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:17:56 -0700 hakimu-mbp (8351)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:17:56 -0700 hakimu-mbp (8351)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:17:56 -0700 hakimu-mbp (8351)] INFO : Finished instrumentation
+[09/20/14 14:17:57 -0700 hakimu-mbp (8351)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 14:18:48 -0700 hakimu-mbp (8356)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:18:48 -0700 hakimu-mbp (8356)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:18:48 -0700 hakimu-mbp (8356)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:18:48 -0700 hakimu-mbp (8356)] INFO : Environment: development
+[09/20/14 14:18:48 -0700 hakimu-mbp (8356)] INFO : No known dispatcher detected.
+[09/20/14 14:18:48 -0700 hakimu-mbp (8356)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:18:48 -0700 hakimu-mbp (8356)] INFO : Installing Net instrumentation
+[09/20/14 14:18:48 -0700 hakimu-mbp (8356)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:18:48 -0700 hakimu-mbp (8356)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:18:48 -0700 hakimu-mbp (8356)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:18:48 -0700 hakimu-mbp (8356)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:18:48 -0700 hakimu-mbp (8356)] INFO : Finished instrumentation
+[09/20/14 14:19:02 -0700 hakimu-mbp (8362)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:19:02 -0700 hakimu-mbp (8362)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:19:02 -0700 hakimu-mbp (8362)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:19:02 -0700 hakimu-mbp (8362)] INFO : Environment: development
+[09/20/14 14:19:02 -0700 hakimu-mbp (8362)] INFO : Dispatcher: sidekiq
+[09/20/14 14:19:02 -0700 hakimu-mbp (8362)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:19:03 -0700 hakimu-mbp (8362)] INFO : Installing Net instrumentation
+[09/20/14 14:19:03 -0700 hakimu-mbp (8362)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:19:03 -0700 hakimu-mbp (8362)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:19:03 -0700 hakimu-mbp (8362)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:19:03 -0700 hakimu-mbp (8362)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:19:03 -0700 hakimu-mbp (8362)] INFO : Finished instrumentation
+[09/20/14 14:20:06 -0700 hakimu-mbp (8370)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:20:06 -0700 hakimu-mbp (8370)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:20:06 -0700 hakimu-mbp (8370)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:20:06 -0700 hakimu-mbp (8370)] INFO : Environment: development
+[09/20/14 14:20:06 -0700 hakimu-mbp (8370)] INFO : Dispatcher: sidekiq
+[09/20/14 14:20:06 -0700 hakimu-mbp (8370)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:20:06 -0700 hakimu-mbp (8370)] INFO : Installing Net instrumentation
+[09/20/14 14:20:06 -0700 hakimu-mbp (8370)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:20:06 -0700 hakimu-mbp (8370)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:20:06 -0700 hakimu-mbp (8370)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:20:06 -0700 hakimu-mbp (8370)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:20:06 -0700 hakimu-mbp (8370)] INFO : Finished instrumentation
+[09/20/14 14:20:07 -0700 hakimu-mbp (8370)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 14:21:52 -0700 hakimu-mbp (8384)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:21:52 -0700 hakimu-mbp (8384)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:21:52 -0700 hakimu-mbp (8384)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:21:52 -0700 hakimu-mbp (8384)] INFO : Environment: development
+[09/20/14 14:21:52 -0700 hakimu-mbp (8384)] INFO : Dispatcher: sidekiq
+[09/20/14 14:21:52 -0700 hakimu-mbp (8384)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:21:52 -0700 hakimu-mbp (8384)] INFO : Installing Net instrumentation
+[09/20/14 14:21:52 -0700 hakimu-mbp (8384)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:21:52 -0700 hakimu-mbp (8384)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:21:52 -0700 hakimu-mbp (8384)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:21:52 -0700 hakimu-mbp (8384)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:21:52 -0700 hakimu-mbp (8384)] INFO : Finished instrumentation
+[09/20/14 14:21:53 -0700 hakimu-mbp (8384)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 14:22:07 -0700 hakimu-mbp (8390)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:22:07 -0700 hakimu-mbp (8390)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:22:07 -0700 hakimu-mbp (8390)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:22:07 -0700 hakimu-mbp (8390)] INFO : Environment: development
+[09/20/14 14:22:07 -0700 hakimu-mbp (8390)] INFO : Dispatcher: sidekiq
+[09/20/14 14:22:07 -0700 hakimu-mbp (8390)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:22:07 -0700 hakimu-mbp (8390)] INFO : Installing Net instrumentation
+[09/20/14 14:22:07 -0700 hakimu-mbp (8390)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:22:07 -0700 hakimu-mbp (8390)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:22:07 -0700 hakimu-mbp (8390)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:22:07 -0700 hakimu-mbp (8390)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:22:07 -0700 hakimu-mbp (8390)] INFO : Finished instrumentation
+[09/20/14 14:22:08 -0700 hakimu-mbp (8390)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
+[09/20/14 14:22:25 -0700 hakimu-mbp (8397)] INFO : Starting the New Relic agent in "development" environment.
+[09/20/14 14:22:25 -0700 hakimu-mbp (8397)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/20/14 14:22:25 -0700 hakimu-mbp (8397)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/sinatra_sidekiq_repro)
+[09/20/14 14:22:25 -0700 hakimu-mbp (8397)] INFO : Environment: development
+[09/20/14 14:22:25 -0700 hakimu-mbp (8397)] INFO : Dispatcher: sidekiq
+[09/20/14 14:22:25 -0700 hakimu-mbp (8397)] INFO : Application: Sinatra Sidekiq (Development)
+[09/20/14 14:22:25 -0700 hakimu-mbp (8397)] INFO : Installing Net instrumentation
+[09/20/14 14:22:25 -0700 hakimu-mbp (8397)] INFO : Installing Sinatra instrumentation
+[09/20/14 14:22:25 -0700 hakimu-mbp (8397)] INFO : Installing deferred Rack instrumentation
+[09/20/14 14:22:25 -0700 hakimu-mbp (8397)] INFO : Installing Rack::Builder middleware instrumentation
+[09/20/14 14:22:25 -0700 hakimu-mbp (8397)] INFO : Installing Sidekiq instrumentation
+[09/20/14 14:22:25 -0700 hakimu-mbp (8397)] INFO : Finished instrumentation
+[09/20/14 14:22:26 -0700 hakimu-mbp (8397)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3888379
